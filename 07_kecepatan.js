@@ -33,8 +33,8 @@ document.getElementById('calcForm').addEventListener('submit', function(event) {
     // Membulatkan viskositas sesuai dengan jumlah desimal
     let v_rounded = kecepatan.toFixed(decimalPlaces);
 
-    document.getElementById('result').textContent = `Kecepatan: ${v_rounded} Pa.s`;
-    document.getElementById('errorResult').textContent = `Kesalahan Ukur Kecepatan: ${delta_v_rounded.toPrecision(1)} Pa.s`;
+    document.getElementById('result').textContent = `Kecepatan: ${v_rounded} cm/s`;
+    document.getElementById('errorResult').textContent = `Kesalahan Ukur Kecepatan: ${delta_v_rounded.toPrecision(1)} cm/s`;
 });
 
 function toggleSidebar() {
