@@ -73,7 +73,7 @@ body {
     font-family: Arial, sans-serif; /* Menggunakan font yang umum dan mudah dibaca */
     letter-spacing: 1px; /* Memberi sedikit jarak antar huruf untuk keterbacaan */
     box-sizing: border-box;
-    z-index: 4;
+    z-index: -3;
     pointer-events: none; /* Agar watermark tidak mengganggu interaksi pengguna */
 }
 
